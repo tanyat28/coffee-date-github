@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	font-family: Gabriola, Candara, Corbel, Gadugi, "Myanmar Text";
+}
+
+h1 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 13px;
+}
+
+p {
+	font-family: Gabriola, Candara, Corbel, Gadugi, "Myanmar Text";
+	text-align: center;
+	font-size: 20px;
+}
+
+.leongertie {
+	clear: both;
+	text-align: center;
+	font-family: Candara, Corbel, "Doppio One", Dosis, Gadugi, "sans-serif";
+	font-size: 14px;
+}
+
+.leonsrwords {
+	font-family: Candara, Corbel, "Doppio One", Dosis, Gadugi, "sans-serif";
+	font-size: 14px;
+}
+
+.quote {
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	padding: 15px;
+	text-align: center;
+}
+
+.gallery {
+	padding-bottom: 15px;
+}
+
+.show {
+	font-family: Gabriola, Candara, Corbel, Gadugi, "Myanmar Text";
+	clear: both;
+	padding-top: 70px;
+}
+
+.show a {
+	font-family: Gabriola, Candara, Corbel, Gadugi, "Myanmar Text";
+}
+
+/*Show More link*/
+a:link {
+	color: black;
+	text-decoration:none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#5E0507;
+}
+
+
+/*Automatic Slideshow*/
+.mySlides {
+	display: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  position:relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 11px;
+  width: 11px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*Mobile View*/
+
+@media (max-width: 767px){
+
+	body {
+		background-image: url(../images_site/aboutpagemobile.png);
+		background-repeat: no-repeat;
+		background-attachment:local;
+		background-position: 50% 160px;
+	}
+	
+	p {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	footer {
+		padding-top: 80px;
+		clear: both;
+	}
+	
+	#leonsr {
+		width: 500px;
+		height: auto;
+	}
+	
+	.table1 {
+		padding: 15px;
+		text-align: center;
+	}
+	
+	#leonjr {
+		float: left;
+		width: 50%;
+		padding: 15px;
+	}
+	
+	#gertie {
+		float:right;
+		width: 50%;
+		padding: 15px;
+	}
+	
+	.bgpic {
+		display: none;
+	}
+	
+	.table2 {
+		display: none;
+	}
+}
+
+/* On smaller screens, decrease text size for Automatic Slideshow */
+
+@media only screen and (max-width: 300px) {
+	.text {font-size: 11px}
+}
+
+
+/*Tablet View*/
+
+@media (min-width: 768px){
+	
+	body {
+		max-width: 778px;
+	}
+	
+	.toppage {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	
+	#mainparagraph {
+		clear: both;
+		width: 50%;
+		margin-left: 15px;
+		margin-top: 5px;
+		float: left;
+	}
+	
+	p {
+		text-align: left;
+	}
+
+	.bgpic {
+		clear: right;
+		float: right;
+		width: 40%;
+		margin-top: 15px;
+	}
+	
+	.ourfamily {
+		clear: both;
+	}
+	
+	.table1 {
+		display: none;
+	}
+	
+	#leongertieformobile {
+		display: none;
+	}
+
+	.leonsenior {
+		height: 238px;
+		width: auto;
+	}
+	
+	.gertie {
+		height: 238px;
+		width: auto;
+		
+	}
+	
+	.leonjunior {
+		height: 238px;
+		width: auto;
+		
+	}
+	
+	.table2 {
+		text-align: center;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 15px;
+	}
+	
+	.tb2 {
+		padding-left: 10%;
+		
+	}
+	
+}
