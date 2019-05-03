@@ -27,8 +27,11 @@ body {
 }
 
 footer {
+	clear: both;
 	text-align: center;
 	padding: 10px;
+	width: 100%;
+
 }
 
 .logofooter {
@@ -121,7 +124,7 @@ p {
 }
 
 .readmore a:hover {
-	color:#5E0507;
+	color:rgba(124,41,42,1.00);
 }
 
 
@@ -139,9 +142,19 @@ body {
 }
 
 
+/*Mobile View*/
+
+@media screen and (max-device-width: 767px){
+	
+	.col {
+		width: 100%;
+	}
+}
+
+
 /*Tablet View*/
 
-@media (min-width: 768px){
+@media screen and (min-device-width: 768px){
 	
 	body {
 		max-width: 778px;
@@ -193,9 +206,9 @@ body {
 
 /*Desktop View*/
 
-@media (min-width: 1024px){
+@media screen and (min-width: 1024px){
 	
-		
+	
 	.styles-logo {
 		float:left;
 	}

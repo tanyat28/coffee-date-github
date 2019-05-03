@@ -12,7 +12,7 @@ main {
 	padding: 15px;
 	clear: both;
 	font-family: Georgia, Constantia, "Lucida Bright", "DejaVu Serif", "serif";
-	font-size: 22pt;
+	font-size: 22px;
 }
 
 ul {
@@ -36,11 +36,15 @@ footer {
 	line-height: 1.5em;
 }
 
+#space {
+	clear: both;
+	height: 50px;
+}
 
 
 /*Mobile View*/
 
-@media (max-width: 767px){
+@media screen and (max-device-width: 767px){
 
 	.col1 {
 		margin-bottom: 30px;
@@ -54,7 +58,7 @@ footer {
 
 /*Tablet View*/
 
-@media (min-width: 768px){
+@media screen and (min-device-width: 768px){
 	
 	body {
 		max-width: 778px;
@@ -81,7 +85,7 @@ footer {
 
 /*Desktop View*/
 
-@media (min-width: 1024px){
+@media screen and (min-width: 1024px){
 	
 	.col1 {
 		clear: left;
@@ -117,4 +121,4 @@ footer {
 		padding-top: 75px;
 	}
 		
-	}
+}
