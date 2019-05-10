@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<head>
+<title>Coffee Date Coffee</title>
+	
+<!--Search Engine Optimization-->	
+<meta name="description" CONTENT="Coffee Date Coffee is a family owned coffee company based in South Africa with coffee beans from around the world. The roastmasters are a father &amp; son team (Leon Sr &amp; Leon Jr). ">
+<meta name="author" CONTENT="Tanya Theron">
+<meta name="keywords" CONTENT="coffee date coffee, co.za, coffeedatecoffee.co.za, family owned, specialty, family run, south africa, arabica, leon, theron, theron roastery, ethiopian sidamo, brasil santos, durban">
+	
+	<meta name="viewport" CONTENT="width=device-width, initial-scale=1">
+	
+<link REL="shortcut icon" HREF="favicon.ico" TYPE="image/x-icon">	
+<link HREF="css/styles.css" REL="stylesheet" TYPE="text/css">
+	
+
+</head>
+
+<body>
+
+	
+	
+	<header>
+		<div CLASS="row">
+		<div CLASS="col">
+		<a HREF="index.html"><img CLASS="styles-logo" SRC="images_site/logo.png" ALT="Coffee Date Coffee logo"></a>
+		<nav CLASS="style-nav">
+			<ul>
+				<li><a HREF="index.html">Home</a></li>
+				<li><a HREF="html/coffee.html">Coffee</a></li>
+				<li><a HREF="html/about.html">About</a></li>
+				<li><a HREF="html/buy.html">Buy</a></li>
+				<li><a HREF="html/contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		</div>
+		</div>
+	</header>
+		
+		
+	
+	<urlset xmlns="https://coffeedate.co.za/sitemap.xml"> 
+		
+<ul>
+	
+	<li><a HREF="index.html" title="Home">Home</a><br/>
+	Go back to the homepage of the Coffee Date website.</li>
+		<url><loc>https://coffeedate.co.za/index.html</loc></url>
+	
+	<li><a HREF="html/coffee.html" title="Types of coffee we roast">Coffee</a><br/>
+	Learn about the types of coffee roasted at Coffee Date.</li>
+		<url><loc>https://coffeedate.co.za/html/coffee.html</loc></url>
+	
+	<li><a HREF="html/about.html" title="Learn more about Coffee Date">About</a><br/>
+	Learn the background of the company and the people that work there.</li>
+		<url><loc>https://coffeedate.co.za/html/about.html</loc></url>
+	
+	<li><a HREF="html/buy.html" title="Buy coffee here">Buy</a><br/>
+	Visit our order form page to purchase coffee beans online.</li>
+		<url><loc>https://coffeedate.co.za/html/buy.html</loc></url>
+	
+	<li><a HREF="html/contact.html" title="Contact us!">Contact</a><br/>
+	Visit our contact page to send an email or view contact information and locations.</li>
+		<url><loc>https://coffeedate.co.za/html/contact.html</loc></url>
+	
+	<li><a HREF="sitemap.xml">Sitemap</a></li>
+</ul>
+		<lastmod>2019-05-03</lastmod>
+	</urlset>
+
+ 
+	
+	<br/>
+	
+	
+	<footer>
+		
+		<div CLASS="row">
+		<div CLASS="col">
+		<table WIDTH="100%"  align="center" BORDER="0" CELLSPACING="0" CELLPADDING="0" CLASS="footer-text">
+  		<tbody>
+	  		<tr>
+				
+      			<td WIDTH="35%" VALIGN="middle">© 2019 Coffee Date Coffee</td>
+				
+      			<td WIDTH="30%"><a HREF="index.html"><img SRC="images_site/logoforfooter.png" title="Back to homepage" CLASS="logofooter" ALT="Logo"/></a></td>
+				
+      			<td WIDTH="35%" VALIGN="middle">coffeedate@zoho.com</td>
+				
+    		</tr>
+  		</tbody>
+		</table>
+
+	
+			
+		<div CLASS="footer-text">	
+			+27-31-4678515<br/>
+			All rights reserved.<br/>
+			Created by Tanya Theron
+            </div><br/>
+			</div></div>
+		
+		
+		<a HREF=""><img SRC="images_site/melogo.png" ALT="tt design logo" title="Website coming soon!" CLASS="ttlogo"/></a>
+	</footer>
+	
+		
+
+	
+</body>
+</html>

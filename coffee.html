@@ -12,10 +12,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 <link href="../css/styles.css" rel="stylesheet" type="text/css">
-<link href="../css/coffee.css" rel="stylesheet" type="text/css">	
+<link href="../css/coffee.css" rel="stylesheet" type="text/css">
+	
+<!--Preload images-->	
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+	
 </head>
 
-<body>
+<!--Preload images-->	
+<body onLoad="MM_preloadImages('../images_site/coffeecup-50opacity.png')">
 	
 	<header>
 		<div class="row">
@@ -40,10 +51,56 @@
 		<p>We only use the <i>finest</i> selected Arabica beans for our coffee.<br/><br/>
 			We are currently roasting:</p></div>
 		
+		<br/>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1coffee">
+  <tbody>
+    <tr>
 		
-		<div class="columns">
+     	<td width="33%">
+			<h2>Ethiopian<br/>Djimmah</h2>
+		
+			<ul class="coffeeinfo">
+			<li>Has a rich mouthfeel and bright finish</li>
+			<li>It begins with fruity, slightly citrusy aromas 
+				and delves into full floral tones with
+				hints of nuts and a smooth clean finish
+			</li>
+			</ul>
+		</td>
+		
+		
+      	<td width="33%">
+			<h2>Brazil<br/>Santos</h2>
+		
+			<ul class="coffeeinfo">
+			<li>Medium body</li>
+			<li>Relatively low acidity</li>
+			<li>Exhibits a nutty sweet flavour, often 
+				bittersweet with a chocolaty roast taste</li>
+			<li>Unwashed; natural</li>
+			</ul>
+		</td>
+		
+		
+      	<td width="33%">
+			<h2>Columbian<br/>Excelso</h2>
+			
+			<ul class="coffeeinfo">
+			<li>Medium body</li>
+			<li>Citrusy flavor</li>
+			<li>Rich acidity</li>
+			<li>Clean and sweet aftertaste</li>
+			</ul>
+		</td>
+		
+    </tr>
+  </tbody>
+</table>
+
+			<div class="columns">
+				
 		<div class="col1">
-		<h2>Ethiopian Sidamo</h2>
+		<h2>Ethiopian Djimmah</h2>
 		
 		<ul class="coffeeinfo">
 			<li>Has a rich mouthfeel and bright finish</li>
@@ -52,7 +109,7 @@
 				&nbsp;&nbsp;hints of nuts and a smooth clean finish
 			</li>
 		</ul>
-		</div>
+			</div>
 		
 		
 		<div class="col2">
@@ -65,8 +122,23 @@
 				bittersweet with a chocolaty roast taste</li>
 			<li>Unwashed; natural</li>
 		</ul>
-		</div>
-		</div>
+		
+			</div>
+			
+		<div class="col3">
+		<h2>Columbian Excelso</h2>
+			
+		<ul class="coffeeinfo">
+			<li>Medium body</li>
+			<li>Citrusy flavor</li>
+			<li>Rich acidity</li>
+			<li>Clean and sweet aftertaste</li>
+		</ul>	
+		
+			</div>
+			
+		</div>	
+		
 		
 	</main>
 	

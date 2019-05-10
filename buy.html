@@ -5,7 +5,8 @@
 <title>Buy</title>
 	
 <link href="../css/styles.css" rel="stylesheet" type="text/css">
-	<meta name="description" content="Coffee Date Coffee is a family owned coffee company based in South Africa with coffee beans from around the world. The roastmasters are a father &amp; son team (Leon Sr &amp; Leon Jr). ">
+<link href="../css/buy.css" rel="stylesheet" type="text/css">
+<meta name="description" content="Coffee Date Coffee is a family owned coffee company based in South Africa with coffee beans from around the world. The roastmasters are a father &amp; son team (Leon Sr &amp; Leon Jr). ">
 <meta name="author" content="Tanya Theron">
 	<meta name="keywords" content="coffee date coffee, co.za, coffeedatecoffee.co.za, family owned, specialty, family run, south africa, arabica, leon, theron, theron roastery, ethiopian sidamo, brasil santos, durban">
 
@@ -33,6 +34,64 @@
 	</header>
 	
 	<main>
+				
+	<div id="message">
+		<p> Thank you for visiting. Online ordering is now available!<br/><br/>
+		You can also order by email at coffeedate@zoho.com.<br/>
+		We hope you have a wonderful
+			
+<!--Script for have a good day etc message-->			
+<script> 
+
+var myDate = new Date(); 
+  
+  
+/* hour is before noon */
+if ( myDate.getHours() < 12 )  
+{ 
+    document.write("morning!"); 
+} 
+
+else  /* Hour is from noon to 4pm (actually to 4:59 pm) */
+if ( myDate.getHours() >= 12 && myDate.getHours() <= 16 ) 
+{ 
+    document.write("afternoon!"); 
+} 
+
+else  /* the hour is after 5pm, so it is between 6pm and midnight */
+if ( myDate.getHours() > 16 && myDate.getHours() <= 24 ) 
+{ 
+    document.write("evening!"); 
+} 
+
+else  /* the hour is not between 0 and 24, so something is wrong */
+{ 
+    document.write("I'm not sure what time it is!"); 
+} 
+</script></p>
+
+	</div>
+		
+	<div id="space">
+	<img src="../images_site/spacer.gif" width="10" height="20" alt="space"/> 
+	</div>
+		
+		
+	<div id="my-store-13145912">
+	</div>
+
+	<div>
+	
+		<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?13145912&data_platform=code&data_date=2018-02-03" charset="utf-8">
+		</script>
+
+		<script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-13145912");
+		</script>
+	
+	</div>
+		
+		
+		
 	
 	</main>
 	
@@ -46,7 +105,7 @@
 				
       			<td width="35%" valign="middle">© 2019 Coffee Date Coffee</td>
 				
-      			<td width="30%"><a href="index.html"><img src="../images_site/logoforfooter.png" title="Back to homepage" class="logofooter" alt="Logo"/></a></td>
+      			<td width="30%"><a href="../index.html"><img src="../images_site/logoforfooter.png" title="Back to homepage" class="logofooter" alt="Logo"/></a></td>
 				
       			<td width="35%" valign="middle">coffeedate@zoho.com</td>
 				

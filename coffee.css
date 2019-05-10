@@ -10,9 +10,9 @@ body {
 
 main {
 	padding: 15px;
-	clear: both;
 	font-family: Georgia, Constantia, "Lucida Bright", "DejaVu Serif", "serif";
 	font-size: 22px;
+	text-align: center;
 }
 
 ul {
@@ -41,6 +41,11 @@ footer {
 	height: 50px;
 }
 
+.toptext {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
 
 /*Mobile View*/
 
@@ -50,9 +55,14 @@ footer {
 		margin-bottom: 30px;
 	}
 	
-	main {
-		text-align: center;
+	.col2 {
+		margin-bottom: 30px;
 	}
+	
+	.table1coffee {
+		display: none;
+	}
+	
 	
 }
 
@@ -66,20 +76,20 @@ footer {
 		
 	}
 		
+	.table1coffee {
+		display: none;
+	}
+	
+	
 	.col1 {
-		width: 50%;
-		float: left;
-		padding-left: 10px;
+		margin-bottom: 30px;
 	}
 	
 	.col2 {
-		width: 50%;
-		float: right;
+		margin-bottom: 30px;
 	}
 	
-	.toptext p {
-		text-align: center;
-	}
+	
 }
 
 
@@ -87,34 +97,22 @@ footer {
 
 @media screen and (min-width: 1024px){
 	
-	.col1 {
-		clear: left;
-		float: left;
-		width: 50%;
-		margin-bottom: 20px;
-		margin-top: 10px;
+	.columns {
+		display: none;
 	}
 	
-	.col2 {
-		clear: left;
-		float: left;
-		width: 50%;
+	.table1coffee {
+		display: table;
 	}
-	
 	
 	body {
 		background-position: 90% 30px;
 		background-attachment: scroll;
 	}
 	
-	.toptext {
-		float: right;
-		margin-top: 130px;
-		width: 40%;
-	}
-	
+
 	.coffeeinfo {
-		text-align: left;
+		text-align: center;
 	}
 	
 	footer {
